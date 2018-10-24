@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3.5
 # -*- coding: utf-8 -*-
 import argparse
 import sys
@@ -18,7 +18,6 @@ def main():
 
     service_urls = [
         'translate.google.cn',
-        'translate.google.co.kr',
     ]
 
     translator = Translator(service_urls=service_urls)
