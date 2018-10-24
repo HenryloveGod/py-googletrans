@@ -1,24 +1,24 @@
 
 
-#
-
-安装步骤
-
+# 安装步骤
+```
 sudo python3.5 setup.py install
-
-使用说明：
+```
+# 使用说明：
 
 ```
 wxservice@wxservice:/home/henry/py-googletrans$ python3.5 /home/henry/py-googletrans/translate.py banana -d fr
 fr:banane
 wxservice@wxservice:/home/henry/py-googletrans$ 
 ```
-即运行:
+
+
+# 即运行:
 ```
 python3.5 /home/henry/py-googletrans/translate.py banana -d fr
 ```
 
-结果：
+# 结果：
 ```
 fr:banane
 ```
